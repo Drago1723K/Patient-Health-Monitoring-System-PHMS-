@@ -20,8 +20,8 @@ float BPM, SpO2;
 float F;
 
 /*Put your SSID & Password*/
-const char* ssid = "OnePlus Nord CE 3 5G";  // Enter SSID here
-const char* password = "63645577";  //Enter Password here
+const char* ssid = "-------------";  // Enter SSID here
+const char* password = "---------";  //Enter Password here
 
 PulseOximeter pox;
 uint32_t tsLastReport = 0;
@@ -228,3 +228,4 @@ String SendHTML(float BPM, float SpO2, float tempF, float F, float humidity) {
   ptr += "</html>";
   return ptr;
 }
+
